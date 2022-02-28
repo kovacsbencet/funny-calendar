@@ -73,6 +73,16 @@ select {
     height: 1000px;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-container .card{
+    flex: 200px;
+}
+
 .red{
     background-color: red;
     transform: rotate(360deg);
