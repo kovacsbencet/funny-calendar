@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+  
+button,
+a {
+    cursor: pointer;
+    color: inherit;
+}
+  
+textarea {
+    resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+/* END OF CSS RESET*/
+
+#root {
+    display: grid;
+    background-color: #131517;
+
+}
+
+
+.card{
+    background-color: #7209b7;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    border-radius: 10px;
+    height: 1fr;
+    width: 1fr;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 1000px;
+    padding: 20px;
+}
+
+#february{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 1000px;
+}
+
+.red{
+    background-color: red;
+    transform: rotate(360deg);
+}
