@@ -137,7 +137,7 @@ function loadEvent() {
 
     let july = document.getElementById("july")
         
-    for (let day = 1; day <= 30; day++){
+    for (let day = 1; day <= 31; day++){
             
         july.insertAdjacentHTML("beforeend",`
             <div class="card">
@@ -149,6 +149,101 @@ function loadEvent() {
         }
     }   
     July()
+
+    /*----------AUGUST----------*/
+
+    function August(){
+
+    let august = document.getElementById("august")
+        
+    for (let day = 1; day <= 31; day++){
+            
+        august.insertAdjacentHTML("beforeend",`
+            <div class="card">
+                <time datetime="YYYY">2022</time>
+                <time datetime="MM">August</time>
+                <time datetime="DD">${day}</time>
+            </div>
+        `)
+        }
+    }   
+    August()
+
+    /*----------SEPTEMBER----------*/
+
+    function September(){
+
+    let september = document.getElementById("september")
+        
+    for (let day = 1; day <= 30; day++){
+            
+        september.insertAdjacentHTML("beforeend",`
+            <div class="card">
+                <time datetime="YYYY">2022</time>
+                <time datetime="MM">September</time>
+                <time datetime="DD">${day}</time>
+            </div>
+        `)
+        }
+    }   
+    September()
+
+    /*----------OCTOBER----------*/
+
+    function October(){
+
+    let october = document.getElementById("october")
+        
+    for (let day = 1; day <= 31; day++){
+            
+        october.insertAdjacentHTML("beforeend",`
+            <div class="card">
+                <time datetime="YYYY">2022</time>
+                <time datetime="MM">October</time>
+                <time datetime="DD">${day}</time>
+            </div>
+        `)
+        }
+    }   
+    October()
+
+    /*----------NOVEMBER----------*/
+
+    function November(){
+
+    let november = document.getElementById("november")
+        
+    for (let day = 1; day <= 30; day++){
+            
+        november.insertAdjacentHTML("beforeend",`
+            <div class="card">
+                <time datetime="YYYY">2022</time>
+                <time datetime="MM">November</time>
+                <time datetime="DD">${day}</time>
+            </div>
+        `)
+        }
+    }   
+    November()
+
+    /*----------DECEMBER----------*/
+
+    function December(){
+
+    let december = document.getElementById("december")
+        
+    for (let day = 1; day <= 31; day++){
+            
+        december.insertAdjacentHTML("beforeend",`
+            <div class="card">
+                <time datetime="YYYY">2022</time>
+                <time datetime="MM">December</time>
+                <time datetime="DD">${day}</time>
+            </div>
+        `)
+        }
+    }   
+    December()
     
     /*----------ONCLICK EVENT----------*/
 

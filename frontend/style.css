@@ -74,16 +74,33 @@ select {
 }
 
 .flex-container{
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: auto;
 
 }
 
 .flex-container .card{
-    flex: 200px;
+    width: 225px;
+    height: 150px;
+
 }
 
 .red{
     background-color: red;
     transform: rotate(360deg);
+}
+
+.block-container{
+    margin: auto 0;
+    padding: 20px;
+}
+
+.block-container .card{
+    display: inline-block;
+    width: 220px;
+    height: 150px;
+    text-align: center;
 }
