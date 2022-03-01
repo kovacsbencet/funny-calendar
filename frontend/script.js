@@ -253,6 +253,12 @@ function loadEvent() {
 
         allCard[i].onclick = function(){
             this.classList.add("red")
+
+            let rotateCard = allCard.getContext("2D")
+
+            rotateCard.rotate(20 * Math.PI /180);
+            rotateCard.fillRect(50, 20, 100, 50);
+            
         }
     }
 
